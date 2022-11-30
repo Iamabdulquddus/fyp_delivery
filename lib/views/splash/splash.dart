@@ -29,10 +29,10 @@ class _SplashScreenState extends State<SplashScreen> {
   }
   @override
   Widget build(BuildContext context) {
-    /// making the app responsive with MediaQuery... well for app its less stress ... to do responsiveness...
     var size = MediaQuery.of(context).size;
     return SafeArea(
       child: Scaffold(
+        appBar: AppBar(title: Text("Fyp Delivery"),),
         body: Container(
           width: size.width,
           height: size.height,
@@ -44,3 +44,5 @@ class _SplashScreenState extends State<SplashScreen> {
     );
   }
 }
+
+

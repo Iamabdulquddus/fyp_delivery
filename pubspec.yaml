@@ -20,6 +20,12 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.2.16
+
+flutter_native_splash:
+  image: assets/splash.png
+  color: "#f9f9f9 "
+
 
 flutter:
 
